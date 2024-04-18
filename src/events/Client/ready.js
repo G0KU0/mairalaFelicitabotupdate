@@ -11,7 +11,7 @@ module.exports = {
     );
 
     //Game
-    let statuses = ["*help"];
+    let statuses = ["PornBot"];
     setInterval(function () {
       let status = statuses[Math.floor(Math.random() * statuses.length)];
       client.user.setPresence({
@@ -19,7 +19,7 @@ module.exports = {
           {
             name: status,
             type: "STREAMING",
-            url: "https://youtu.be/kCspj65OhE4?si=Vvf7qfpbRQZPTzdh",
+            url: "https://youtu.be/UiXh5ugr_7g?si=mf9OMxwKLWRxojwf",
           },
         ],
         status: "dnd",
